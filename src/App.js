@@ -12,7 +12,7 @@ function App() {
         <Route path='/' element={<Navigate replace to='/home' />} />
         <Route path='/home' element={<MainPage />} />
         <Route path='/details' element={<Details />} />
-        <Route path='*' element={<NotFound />} />
+        {/* <Route path='*' element={<NotFound />} /> */}
       </Routes>
     </Layout>
   );
